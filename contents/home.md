@@ -1,16 +1,14 @@
 
-
-[![senli1073](https://img.shields.io/badge/senli1073-github-blue?logo=github)](https://github.com/senli1073)
-
-He is currently pursuing a Master's Degree in Computer Science, at School of Computer Science and Technology, China University of Mining and Technology, China.
+A senior undergraduate student in The Ohio State University, specializing in Aritificial Intelligence.
 
 #### Email
-sli[at]cumt.edu.cn
+wang.14629@osu.edu
 
 #### Education
-M.E., Computer Science and Technology, China University of Mining and Technology, 2022—2025 (expected).\
-B.E., Data Science and Big Data Technology, China University of Mining and Technology, 2018—2022.
+B.S. Major in Computer Information Science, Minor in Mathematics, Ohio State University, Aug. 2021 – May 2025 (expected)
 
 #### Research Interests
-Deep Learning, Artificial Intelligence Seismology, Mine Microseismic.
+Vision Language Model, Computer Vision, Deep Learning
 
+#### Github
+[![ZiheHerzWang](https://img.shields.io/badge/ZiheHerzWang-github-blue?logo=github)](https://github.com/ZiheHerzWang)
