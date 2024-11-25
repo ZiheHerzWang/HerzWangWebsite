@@ -182,9 +182,8 @@ section .main-body {
     font-weight: bold;
     margin-top: 10px;
 }
-
 #publications-md {
-    opacity: 0; /* Start fully transparent */
-    transform: scale(0); /* Start extremely small */
-    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out; /* Smooth transition for animations */
+    opacity: 1; /* Fully visible */
+    transform: none; /* No scaling */
+    transition: none; /* Remove smooth transitions */
 }

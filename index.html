@@ -6,15 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="Academic Webpage" />
     <meta name="author" content="ZiheHerzWang" />
-    <title id="title">Dynamic Academic Webpage</title>
+    <title id="title">Academic Webpage</title>
 
     <!-- Icon -->
     <link rel="icon" type="image/x-icon" href="static/assets/favicon.ico" />
 
-    <!-- Bootstrap icons -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
-
-    <!-- Google fonts -->
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,600;1,600&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,500;0,600;0,700&display=swap" rel="stylesheet" />
@@ -24,39 +21,23 @@
     <link type="text/css" href="static/css/styles.css" rel="stylesheet" />
     <link type="text/css" href="static/css/main.css" rel="stylesheet" />
 
-    <!-- Particle.js -->
-    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
-
-    <!-- Bootstrap core JS -->
-    <script type="text/javascript" src="static/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Markdown -->
-    <script type="text/javascript" src="static/js/marked.min.js"></script>
-
-    <!-- Mathematics -->
-    <script type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-
-    <!-- Lottie Animation -->
-    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-
-    <!-- Core JS -->
-    <script type="text/javascript" src="static/js/scripts.js"></script>
-    <script type="text/javascript" src="static/js/js-yaml.min.js"></script>
+    <!-- JavaScript files -->
+    <script defer src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script defer src="static/js/bootstrap.bundle.min.js"></script>
+    <script defer src="static/js/marked.min.js"></script>
+    <script defer id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script defer src="static/js/scripts.js"></script>
+    <script defer src="static/js/js-yaml.min.js"></script>
 </head>
 
 <body id="page-top">
-    <!-- Particle Background -->
-    <div id="particles-js" class="particle-container"></div>
-
     <!-- Navigation -->
     <nav class="header navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
         <div class="container px-5">
-            <a id="page-top-title" class="navbar-brand fw-bold" href="#page-top">My Webpage</a>
+            <a class="navbar-brand fw-bold" href="#page-top">My Webpage</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                <lottie-player src="https://assets9.lottiefiles.com/private_files/lf30_editor_wqpzslmi.json" 
-                    background="transparent" speed="1" style="width: 50px; height: 50px;" loop autoplay>
-                </lottie-player>
+                <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
@@ -69,7 +50,6 @@
     </nav>
 
     <!-- Top Section -->
-
     <section
     class="top-section"
         style="
@@ -90,12 +70,6 @@
         </div>
     </section>
 
-
-
-
-
-    
-
     <!-- Avatar -->
     <div class="container px-5">
         <div id="avatar">
@@ -107,10 +81,6 @@
     <section class="bg-gradient-primary-to-secondary-light mt5 md5" id="home">
         <div class="container px-5">
             <header>
-                <!-- Dynamic Quotes Section -->
-                <div id="home-quote" style="text-align: left; color: lightblue; font-size: 1.5rem; margin-bottom: 10px;">
-                    <!-- Dynamic quotes will be inserted here -->
-                </div>
                 <!-- Subtitle Section -->
                 <h2 id="home-subtitle"></h2>
             </header>
@@ -118,12 +88,12 @@
             <div class="main-body" id="home-md"></div>
         </div>
     </section>
-    
+
     <!-- Publications -->
     <section class="bg-gradient-primary-to-secondary-gray mt5 md5" id="publications">
         <div class="container px-5">
             <header>
-                <h2 id="publications-subtitle"><i class="bi bi-file-text-fill"></i> PUBLICATIONS</h2>
+                <h2><i class="bi bi-file-text-fill"></i> PUBLICATIONS</h2>
             </header>
             <div class="main-body" id="publications-md"></div>
         </div>
@@ -138,9 +108,6 @@
             <div class="main-body" id="statement-md"></div>
         </div>
     </section>
-
-    <!-- Include JavaScript -->
-    <script src="static/js/main.js"></script>
 </body>
 
 </html>
