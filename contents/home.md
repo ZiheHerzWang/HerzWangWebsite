@@ -2,7 +2,8 @@
 A senior undergraduate student in The Ohio State University, specializing in Aritificial Intelligence.
 
 #### Email
-wang.14629@osu.edu
+wang.14629@osu.edu 
+
 zihe030716@outlook.com
 
 #### Education
